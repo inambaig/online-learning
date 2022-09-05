@@ -1,4 +1,13 @@
 <h1>Hello at landing page</h1>
-<%= link_to "Privacy policy", static_pages_privacy_policy_path %>
+<i class="far fa-address-book"></i>
+<i class="fab fa-github"></i>
+<%= link_to static_pages_privacy_policy_path,  class: "btn btn-lg btn-warning" do %>
+    <i class="fab fa-github"></i>
+    Privacy policy
+<% end %>
+
+<button type="button" class="btn btn-lg btn-danger">
+        Notification <span class="badge badge-light">4</span>
+</button>
 
 
